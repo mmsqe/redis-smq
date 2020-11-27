@@ -1,5 +1,5 @@
 import {ConfigInterface} from "../../types/config";
-import { Monitor } from "redis-smq-monitor";
+import { Monitor } from "@crypto.com/redis-smq-monitor";
 
 export const config: ConfigInterface = {
     namespace: 'ns1',

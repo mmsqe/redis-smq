@@ -1,11 +1,11 @@
 {
   "name": "@crypto.com/redis-smq",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "A simple high-performance Redis message queue for Node.js.",
   "main": "index.js",
   "types": "index.d.ts",
   "dependencies": {
-    "@crypto.com/redis-smq-monitor": "1.1.5",
+    "@crypto.com/redis-smq-monitor": "1.1.6",
     "bunyan": "1.8.10",
     "cron-parser": "2.5.0",
     "ioredis": "4.14.1",
@@ -44,7 +44,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/weyoss/redis-smq.git"
+    "url": "git+https://github.com/weyoss/redis-smq.git"
   },
   "homepage": "https://github.com/weyoss/redis-smq",
   "bugs": {
@@ -53,5 +53,10 @@
   "engineStrict": true,
   "engines": {
     "node": ">=7.0.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "test": "test"
   }
 }
